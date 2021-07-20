@@ -1,0 +1,6 @@
+User-agent: Googlebot-Image
+Disallow: /img/about.jpg
+Disallow: /img/homeimg.png
+Disallow: /img/work7.jpg
+Disallow: /img/eng.png
+Disallow: /img/ita.png

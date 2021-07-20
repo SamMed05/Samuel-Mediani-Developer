@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta lang="en">
+    <meta name="description" content="Learn more about my developer-journey. Here you can find my projects and skills!">
+    <meta name="keywords" content="samuel, mediani, developer, programming, portfolio, samdev, programmer, samuel mediani">
+    <meta name="theme-color" content="#4070F4"/> <!-- To change Chrome tab color on mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link type="text/plain" rel="author" href="humans.txt"/>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179595565-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-179595565-1');
+    </script>
+
+    <link rel="icon" href="./img/s-logo-for-tab.png">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- ========= BOX ICONS (free) ========= -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Samuel Mediani | Developer</title>
+</head>
+<body class="light" id="body">
+    
+    <!-- ========= LOADER ========= -->
+    <div id="load_screen" style="pointer-events: none;"><div id="loader">LOADING...</div></div>
+
+    <!-- ========= HEADER ========= -->
+    <header class="1-header" id="navbar">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">SAMUEL</a>
+                <img class="nav__img "src="./img/s-logo.png" alt="LOGO">
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li><p class="space-before-theme">___</p>
+                    <div>
+                        <a href="#" class="theme-button-dark" id="dark">DARK<i class='bx bxs-moon' ></i></a>
+                        <a href="#" class="theme-button-light" id="light">LIGHT <i class='bx bxs-sun' ></i></a>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu' id="menu-icon1"></i>
+            </div>
+
+            <!-- ========= SCROLL INDICATOR ========= -->
+            <div class="progress-container">
+                <div class="progress-bar" id="myBar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="1-main">
+        <!-- ========= HOME ========= -->
+        <section class="home bd-grid" id="home">
+
+            <!-- ========= SCROLL TO TOP BUTTON ========= -->
+            <!-- ========= from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp ========= -->
+            <button href="#home" onclick="topFunction()" id="topBtn" title="Go to top"><i class='bx bxs-chevrons-up' ></i></button>
+
+            <!-- ========= CHANGE LANGUAGE ========= -->
+            <div id="select__lang">
+                <a title="switch language (en/us)" class="select__lang1" href="#" onclick="eng()"><img src="./img/eng.png" alt="english"></a>
+            </div>
+            <div id="select__lang">
+                <a title="switch language (it)" class="select__lang2" href="#" onclick="ita()"><img src="./img/ita.png" alt="italian"></a>
+            
+                <!-- Start of WebFreeCounter Code 
+                <a href="https://www.webfreecounter.com/" target="_blank"><img src="https://www.webfreecounter.com/hit.php?id=gendnkf&nd=6&style=14" style="margin-left: 30px;" alt="free counter"></a>-->
+            
+            </div>
+
+            <div class="home__data">
+                <h1 class="home__title" id="home__title">Hi, <br>I'm <span class='home__title-color'>Samuel</span><br> I love making </h1>
+                    
+                <div class>
+                    <h1 class="space-before">-<a href="#work" class="typewrite" id="typewrite" data-period="1200" data-type='["videogames", "3D models", "websites", "tutorials", "logos", "fractals", "music", "generative art"]'>
+                        <span class="wrap"></span></a>
+                    </h1>
+                </div>
+
+                <br>
+
+                <a href="./misc/Samuel Mediani Resume.pdf" target="_blank" class="cv-button" id="cv-button">Get my CV <i class='bx bxs-download'></i></a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://twitter.com/MedianiSamuel" target="_blank" class="home__social-icon"><i class='bx bxl-twitter'></i></a>
+                <a href="https://github.com/SamMed05" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                <!-- <a href="#" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin-square' ></i></a> -->
+                <a href="https://www.youtube.com/channel/UC_hW38-klNAurljQk8g25ww" target="_blank" class="home__social-icon"><i class='bx bxl-youtube' ></i></a>
+            </div>
+
+            <div class="scroll__button">
+                <a href="#about" class="scroll-down">
+                    <div class="mouse">
+                        <span></span>
+                    </div>
+                    <div class="arrow">
+                        <span></span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="home__img">
+                <img src="./img/homeimg.png" alt="">
+            </div>
+        </section>
+
+        <!-- ========= ABOUT ========= -->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <!-- <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="./img/about.jpg" alt="">
+                </div> -->
+        <div class="about__container bd-grid">
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                          <img src="./img/about.jpg" alt="" style="width:100%;height:100%;border-radius:10px;">
+                        </div>
+                        <div class="flip-box-back">
+                          <h2 class="back-text" id="back-text">Hi!</h2>
+                          <p class="back-text2" id="back-text2">It's me!</p>
+                        </div>
+                    </div>
+                </div>
+            
+
+                    <div>
+                        <h2 class="about__subtitle" id="about__subtitle">Something about me</h2>
+                        <p class="about__text" id="about__text" style="display:inline">
+                            Welcome lucky visitor! I am a
+                            <script>
+                                // let date = new Date().getFullYear();
+                                // let age = 0;
+                                // let day = new Date().getDate;
+                                // let month = new Date().getMonth;
+
+                                // if ((day>=4) && (month>=3)) { //months go from 0 to 11, not from 1 to 12!
+                                //     age = date - 2005;
+                                //     console.log(age);
+                                //     document.getElementById("age").innerHTML = age;
+                                // }
+                                // function dateDiff(dateold, datenew) {
+                                //   var ynew = datenew.getFullYear();
+                                //   var mnew = datenew.getMonth();
+                                //   var dnew = datenew.getDate();
+                                
+                                // https://www.scriptol.com/javascript/dates-difference.php
+                                function age(birthday)
+                                {
+                                  birthday = new Date(birthday);
+                                  return new Number((new Date().getTime() - birthday.getTime()) / 31536000000).toFixed(0);
+                                }
+                                
+                            </script>
+                            <!-- <p id="age" style="display:inline">0</p> -->
+                            <p style="display:inline"><script>document.write(age("4 April 2005"))</script></p>
+                            years old italian boy who loves programming and learning new things (think of this website as a demonstration of it <i class='bx bx-smile' ></i>). <br>
+                            I'm at the second year of upper secondary school in the IT technical institute, but everything you see here is done by learning the skills I needed as a self-taught.<br>
+                            Indeed I like experimenting with pretty much every aspect of developing in general and trying out new things to learn from them to improve myself. <br>
+                            For now I have done work in software, web and videogame development, but I also experiment with fractals (2D and 3D) and I seldom make logos.<br>
+                            Currently I'm not specialized in any of these fields in particular, I'm still finding the best one for me. <br>
+                            In any case this website serves the purpose of demonstrating my latest projects, as well as to keep track of my journey through them.
+                        </p>
+                    </div>
+            </section>
+        </div>
+
+        <!-- ========= SKILLS ========= -->
+        <section class="skills" id="skills">
+            <br>
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle" id="skills__subtitle">Professional skills</h2>
+                    <p class="skills__text" id="skills__text">
+                    For now I have used HTML5 <i class='bx bxl-html5 ' ></i>, CSS3 <i class='bx bxl-css3 ' ></i>, Javascript <i class='bx bxl-javascript ' ></i>, Python <i class='bx bxl-python'></i>, C# (in Unity), C++ and Java language, but I'm still learning them.<br>
+                    The programs that I've used (or sperimented with) for now are Unity, Blender, Visual Studio, Visual Studio Code, Android Studio, Eclipse and others (<em>see the image</em>).
+                    </p>
+
+                    <!-- ========= BARS ========= -->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon' ></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                        <div class="skills__bar skills__html"></div>
+                    </div>
+                    
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon' ></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">60%</span>
+                        </div>
+                        <div class="skills__bar skills__css"></div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-python skills__icon' ></i>
+                            <span class="skills__name">PYTHON</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">70%</span>
+                        </div>
+                        <div class="skills__bar skills__py"></div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-component skills__icon' ></i>
+                            <span class="skills__name">BLENDER</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                        <div class="skills__bar skills__blender"></div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-game skills__icon' ></i>
+                            <span class="skills__name">UNITY</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">40%</span>
+                        </div>
+                        <div class="skills__bar skills__unity"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="./img/programs.jpg" alt="" class="skills__img">
+                </div>
+            </div>
+        </section>
+
+        <!-- ========= WORK ========= -->
+        <section class="work section" id="work">
+            <h2 class="section-title">Work</h2>
+
+            <p class="work__text" id="work__text">These are some of my main projects:</p>
+
+            <div class="work__container bd-grid">
+
+                <div class="work__img">
+                    <img src="./img/work1.jpg" alt="BLENDER PROJECT" id="myImg">
+                    <div class="contentBx">
+                        <div class="contentTx">
+                            <h2 id="bx-title1">Blender Neon Text</h2>
+                            <p id="bx-text1">In this project - inspired by a tutorial of Blender Guru - I've created a neon text with my name.</p>
+                            <a><button class="work__button" id="work__button">OPEN!</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__img">
+                    <img src="./img/work2.webp" alt="BLENDER PROJECT" id="myImg2">
+                    <div class="contentBx">
+                        <div class="contentTx">
+                            <h2 id="bx-title2">First Landscape</h2>
+                            <p id="bx-text2">This is one of my first Blender projects I've made (2019).</p>
+                            <a><button class="work__button" id="work__button">OPEN!</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__img">
+                    <img src="./img/work3.jpg" alt="BLENDER PROJECT" id="myImg3">
+                    <div class="contentBx">
+                        <div class="contentTx">
+                            <h2 id="bx-title3">Candle</h2>
+                            <p id="bx-text3">Another project of a melting candle (using subsurface scattering).</p>
+                            <a><button class="work__button" id="work__button">OPEN!</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__img">
+                    <img src="./img/work4.webp" alt="TERRAGEN PROJECT" id="myImg4">
+                    <div class="contentBx">
+                        <div class="contentTx">
+                            <h2 id="bx-title4">Realistic Landscape</h2>
+                            <p id="bx-text4">Here I tryed to make a realistic landscape with Terragen 4 (note the differences with the Blender one).</p>
+                            <a><button class="work__button" id="work__button">OPEN!</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__img">
+                    <img src="./img/work5.webp" alt="BLENDER PROJECT" id="myImg5">
+                    <div class="contentBx">
+                        <div class="contentTx">
+                            <h2 id="bx-title5">Tesla Cybertruck</h2>
+                            <p id="bx-text5">Fascinated by the minimal design of this car, I decided to make my own version in Blender.</p>
+                            <a><button class="work__button" id="work__button">OPEN!</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__img">
+                    <img src="./img/work6.jpg" alt="UNITY PROJECT" id="myImg6">
+                    <div class="contentBx">
+                        <div class="contentTx">
+                            <h2 id="bx-title6">My first game</h2>
+                            <p id="bx-text6">Now I'm working on a game based on squares, but it's work-in-progress yet.</p>
+                            <a><button class="work__button" id="work__button">OPEN!</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__img">
+                    <a href="https://github.com/SamMed05/Samuel-Mediani-Developer" target="_blank" style="color: #fff;">
+                        <img src="./img/work7.jpg" alt="WEBSITE PROJECT" id="myImg7">
+                        <div class="contentBx">
+
+                            <div class="contentTx">
+                                <h2 id="bx-title7">My first website</h2>
+                                <p id="bx-text7">I can't forget to mention this website, my last project and my favourite one for now <i class='bx bx-smile' ></i>. <br>Click to view the source code! <i class='bx bx-code-block'></i></p>
+                                <a><button class="work__button" id="work__button">OPEN!</button></a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="work__img">
+                    <img src="./img/work8.webp" alt="UNITY PROJECT" id="myImg8">
+                    <div class="contentBx">
+                        <div class="contentTx">
+                            <h2 id="bx-title8">Mandelbrot Set</h2>
+                            <p id="bx-text8">This is one of my favourite projects, by a tutorial of 'The Art Of Code'. Look at this beautiful colors!</p>
+                            <a><button class="work__button" id="work__button">OPEN!</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__img">
+                    <a href="RPSgame/index.html" target="_blank" style="color: #fff;">
+                        <img src="./img/work9.jpg" alt="WEBSITE PROJECT" id="myImg9">
+                        <div class="contentBx">
+                            <div class="contentTx">
+                                <h2 id="bx-title9">Rock Paper Scissors</h2>
+                                <p id="bx-text9">Challenge your computer to win in this funny and simple game!</p>
+                                <a><button class="work__button" id="work__button">OPEN!</button></a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="work__img">
+                    <a href="https://sammed05.github.io/sm_blog/" target="_blank" style="color: #fff;">
+                        <img src="./img/work10.jpg" alt="WEBSITE PROJECT" id="myImg10">
+                        <div class="contentBx">
+                            <div class="contentTx">
+                                <h2 id="bx-title10">Blog</h2>
+                                <p id="bx-text10">Here I write about my thoughts, my life and my passions.<br>Click to visit it!</p>
+                                <a><button class="work__button" id="work__button">OPEN!</button></a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <br>
+
+            <h2 class="section-title">3D model</h2></section>
+            <!-- https://modelviewer.dev/examples/stagingandcameras/ -->
+            <model-viewer id="tesla-model" camera-controls disable-zoom shadow-intensity="0" ar camera-orbit="calc(-2.1rad + env(window-scroll-y) * -3.8rad) calc(17deg + env(window-scroll-y) * 75deg) calc(10 - env(window-scroll-y) * 5m)" skybox-image="./img/hdri-enviroment-map.jpg" enviroment-image="./img/hdri-enviroment-map.jpg" style="width: auto; min-height: 35vw; margin: auto; margin-left: calc(11vw - 1rem); margin-right: calc(11vw - 1rem); border-radius: 10px;" src="./misc/tesla-cybertruck-web_model2.gltf" alt="A 3D model of Tesla Cybertruck!" title="Tesla Cybertruck 3D model"></model-viewer> <!-- margin-left: 10vw; margin-right: 10vw; border-radius: 10px; -->
+            
+        
+        </section>
+        <!-- ========= OPEN IMAGE ========= -->
+        <!-- from https://www.w3schools.com/howto/howto_css_modal_images.asp -->
+        
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+        
+        <script>
+            // Get the modal
+            var modal = document.getElementById("myModal");
+        
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById("myImg");
+            var img2 = document.getElementById("myImg2");
+            var img3 = document.getElementById("myImg3");
+            var img4 = document.getElementById("myImg4");
+            var img5 = document.getElementById("myImg5");
+            var img6 = document.getElementById("myImg6");
+            var img7 = document.getElementById("myImg7");
+            var img8 = document.getElementById("myImg8");
+            var img9 = document.getElementById("myImg9");
+            var img10 = document.getElementById("myImg10");
+
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+            }
+            img2.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+            img3.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+            img4.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+            img5.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+            img6.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+            img7.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+            img8.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+            img9.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+            img10.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+            
+            // https://www.geeksforgeeks.org/how-to-use-dynamic-variable-names-in-javascript/
+            /*var k = 'img';
+            var i = 0;
+            for(i = 1; i < 11; i++) {
+                //var n = i.toString();
+
+                img[i].onclick = function(){
+                    modal.style.display = "block";
+                    modalImg.src = this.src;
+                    captionText.innerHTML = this.alt;
+                }
+            };*/
+            
+            
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+        
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() { 
+              modal.style.display = "none";
+            }
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+        </script>
+
+
+        <!-- ========= CONTACT ========= -->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <!-- <form action="" class="contact__form">
+                    <input type="text" placeholder="Name" title="insert your name" class="contact__input">
+                    <input type="text" placeholder="Email" title="insert your email" class="contact__input">
+                    <textarea name="" id="" placeholder="Write text here"cols="0" rows="10" class="contact__input"></textarea>
+
+                    <input type="button" value="Send" class="contact__button button">
+                </form> -->
+                <p class="contact__text" id="contact__text">Currently <strong>I'm not avaiable to get a job</strong> so there is no need to contact me. <br>Maybe when I will be of age and I will have learned other things you will be able to do it <i class='bx bx-smile' ></i>.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- ========= FOOTER ========= -->
+    <footer class="footer">
+        <p class="footer__title">Samuel</p>
+
+        <div class="footer__social">
+            <a href="https://twitter.com/MedianiSamuel" target="_blank" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+            <a href="https://github.com/SamMed05" target="_blank" class="footer__icon"><i class='bx bxl-github' ></i></a>
+            <!-- <a href="#" target="_blank" class="footer__icon"><i class='bx bxl-linkedin-square' ></i></a> -->
+            <a href="https://www.youtube.com/channel/UC_hW38-klNAurljQk8g25ww" target="_blank" class="footer__icon"><i class='bx bxl-youtube' ></i></a>
+        </div>
+        <p id="footer__text">Copyright &#169; Samuel Mediani 2020. All right reserved. - <em>HANDMADE</em></p>
+    </footer>
+
+    <!-- ========= MAIN JS ========= -->
+    <script src="./js/main.js"></script>
+    <!-- ========= CHANGE LANGUAGE JS FILE ========= -->
+    <script src="./js/switch-lang.js"></script>
+
+    <!-- ========= 3D MODELS ========= -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+    <!-- Magic Leap support -->
+    <script src="./js/prismatic.js"></script>
+
+</body>
+</html>

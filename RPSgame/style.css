@@ -1,0 +1,51 @@
+body {
+    background: radial-gradient(rgb(35, 65, 100), rgb(13, 38, 87));
+    font-family: monospace;
+    text-align: center;
+    font-size: 2.5vw;
+    position: relative;
+    color: rgb(177, 204, 255);
+}
+
+img {
+    padding: 5px 15px 0 15px; /* top, left, bottom, right */
+    height: auto;
+    width: 15%;
+    position: relative;
+    min-width: 150px;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: all .5s;
+}
+img:not(:hover) {
+    transform: scale(1.0);
+    transition: all .3s;
+}
+
+.score-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 0.8rem;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.container {
+    position: absolute;
+    top: 70px; 
+    left: 0; 
+    bottom: 0; 
+    right: 0;
+    font-size: 1.3rem;
+}
+
+.margin-top {
+    margin-top: 0;
+}
+
+#result {
+    font-size: 1rem;
+}
