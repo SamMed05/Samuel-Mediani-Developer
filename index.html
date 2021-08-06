@@ -22,6 +22,7 @@
 
     <link rel="icon" href="./img/s-logo-for-tab.png">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/theme.css">
 
     <!-- ========= BOX ICONS (free) ========= -->
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
@@ -149,40 +150,40 @@
                         <h2 class="about__subtitle" id="about__subtitle">Something about me</h2>
                         <p class="about__text" id="about__text" style="display:inline">
                             Welcome lucky visitor! I am a
-                            <script>
-                                // let date = new Date().getFullYear();
-                                // let age = 0;
-                                // let day = new Date().getDate;
-                                // let month = new Date().getMonth;
-
-                                // if ((day>=4) && (month>=3)) { //months go from 0 to 11, not from 1 to 12!
-                                //     age = date - 2005;
-                                //     console.log(age);
-                                //     document.getElementById("age").innerHTML = age;
-                                // }
-                                // function dateDiff(dateold, datenew) {
-                                //   var ynew = datenew.getFullYear();
-                                //   var mnew = datenew.getMonth();
-                                //   var dnew = datenew.getDate();
-                                
-                                // https://www.scriptol.com/javascript/dates-difference.php
-                                function age(birthday)
-                                {
-                                  birthday = new Date(birthday);
-                                  return new Number((new Date().getTime() - birthday.getTime()) / 31536000000).toFixed(0);
-                                }
-                                
-                            </script>
                             <!-- <p id="age" style="display:inline">0</p> -->
-                            <p style="display:inline"><script>document.write(age("4 April 2005"))</script></p>
+                            <p class="about__text" style="display:inline"><script>document.write(age("4 April 2005"))</script>
                             years old italian boy who loves programming and learning new things (think of this website as a demonstration of it <i class='bx bx-smile' ></i>). <br>
                             I'm at the second year of upper secondary school in the IT technical institute, but everything you see here is done by learning the skills I needed as a self-taught.<br>
                             Indeed I like experimenting with pretty much every aspect of developing in general and trying out new things to learn from them to improve myself. <br>
                             For now I have done work in software, web and videogame development, but I also experiment with fractals (2D and 3D) and I seldom make logos.<br>
                             Currently I'm not specialized in any of these fields in particular, I'm still finding the best one for me. <br>
-                            In any case this website serves the purpose of demonstrating my latest projects, as well as to keep track of my journey through them.
+                            In any case this website serves the purpose of demonstrating my latest projects, as well as to keep track of my journey through them.</p>
                         </p>
                     </div>
+                    <script>
+                        // let date = new Date().getFullYear();
+                        // let age = 0;
+                        // let day = new Date().getDate;
+                        // let month = new Date().getMonth;
+
+                        // if ((day>=4) && (month>=3)) { //months go from 0 to 11, not from 1 to 12!
+                        //     age = date - 2005;
+                        //     console.log(age);
+                        //     document.getElementById("age").innerHTML = age;
+                        // }
+                        // function dateDiff(dateold, datenew) {
+                        //   var ynew = datenew.getFullYear();
+                        //   var mnew = datenew.getMonth();
+                        //   var dnew = datenew.getDate();
+                        
+                        // https://www.scriptol.com/javascript/dates-difference.php
+                        function age(birthday)
+                        {
+                          birthday = new Date(birthday);
+                          return new Number((new Date().getTime() - birthday.getTime()) / 31536000000).toFixed(0);
+                        }
+                        
+                    </script>
             </section>
         </div>
 
