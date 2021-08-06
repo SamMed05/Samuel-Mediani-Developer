@@ -145,7 +145,31 @@
                     </div>
                 </div>
             
+                <script>
+                    // let date = new Date().getFullYear();
+                    // let age = 0;
+                    // let day = new Date().getDate;
+                    // let month = new Date().getMonth;
 
+                    // if ((day>=4) && (month>=3)) { //months go from 0 to 11, not from 1 to 12!
+                    //     age = date - 2005;
+                    //     console.log(age);
+                    //     document.getElementById("age").innerHTML = age;
+                    // }
+                    // function dateDiff(dateold, datenew) {
+                    //   var ynew = datenew.getFullYear();
+                    //   var mnew = datenew.getMonth();
+                    //   var dnew = datenew.getDate();
+                    
+                    // https://www.scriptol.com/javascript/dates-difference.php
+                    function age(birthday)
+                    {
+                      birthday = new Date(birthday);
+                      return new Number((new Date().getTime() - birthday.getTime()) / 31536000000).toFixed(0);
+                    }
+                    
+                </script>
+                
                     <div>
                         <h2 class="about__subtitle" id="about__subtitle">Something about me</h2>
                         <p class="about__text" id="about__text" style="display:inline">
@@ -160,30 +184,7 @@
                             In any case this website serves the purpose of demonstrating my latest projects, as well as to keep track of my journey through them.</p>
                         </p>
                     </div>
-                    <script>
-                        // let date = new Date().getFullYear();
-                        // let age = 0;
-                        // let day = new Date().getDate;
-                        // let month = new Date().getMonth;
-
-                        // if ((day>=4) && (month>=3)) { //months go from 0 to 11, not from 1 to 12!
-                        //     age = date - 2005;
-                        //     console.log(age);
-                        //     document.getElementById("age").innerHTML = age;
-                        // }
-                        // function dateDiff(dateold, datenew) {
-                        //   var ynew = datenew.getFullYear();
-                        //   var mnew = datenew.getMonth();
-                        //   var dnew = datenew.getDate();
-                        
-                        // https://www.scriptol.com/javascript/dates-difference.php
-                        function age(birthday)
-                        {
-                          birthday = new Date(birthday);
-                          return new Number((new Date().getTime() - birthday.getTime()) / 31536000000).toFixed(0);
-                        }
-                        
-                    </script>
+                    
             </section>
         </div>
 
