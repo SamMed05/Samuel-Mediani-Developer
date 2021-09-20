@@ -671,7 +671,8 @@ img {
     color: var(--second-color);
 }
 
-.cv-button:after, .cv-button:before {
+/* Thanks https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity */
+.home__data .cv-button:after, .home__data .cv-button:before {
     content: "";
     position: absolute;
     top: 0;
@@ -679,6 +680,7 @@ img {
     bottom: 0;
     right: 0;
     border: 2px solid #0E2431;
+    border-color: #0E2431;
     -webkit-transition: -webkit-transform 0.2s;
     transition: -webkit-transform 0.2s;
     transition: transform 0.2s;
@@ -860,16 +862,16 @@ img {
     cursor: pointer;
 }
 
-.work__img{
-    position:relative;
+.work__img {
+    position: relative;
     box-shadow: 0 4px 15px rgba(14,36,49,.25);
     border-radius: .5rem;
     overflow: hidden;
-    width:100%;
-    height:100%;
-    margin:0;
-    background-position:center;
-    transition:0.5s;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-position: center;
+    transition: 0.5s;
     background-color: #000;
 }
 
@@ -891,6 +893,7 @@ img {
     font: var(--font-semi);
     cursor: pointer;
     margin-top: 10px;
+    font-weight: 600;
 }
 
 .work__button:hover {
@@ -1124,7 +1127,7 @@ img {
         padding-top: 0;
     }
     .nav__item {
-        margin-left: var(--mb-6);
+        margin-left: var(--mb-5);
         margin-bottom: 0;
     }
     .nav__logo {

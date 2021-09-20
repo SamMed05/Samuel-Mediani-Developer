@@ -17,7 +17,7 @@ function eng() {
   txt =	"<p class='about__subtitle'>Something about me</p>";
   document.getElementById("about__subtitle").innerHTML = txt;
 
-  txt =	"<p class='about__text'>Welcome lucky visitor! I am a 16 years old italian boy who loves programming and learning new things (think of this website as a demonstration of it <i class='bx bx-smile' ></i>). <br> I'm at the second year of upper secondary school in the IT technical institute, but everything you see here is done by learning the skills I needed as a self-taught. <br> Indeed I like to experiment with pretty much every aspect of developing in general and trying out new things to learn from them to improve myself. <br> For now I have done work in software, web and videogame develompment, but I also experiment with fractals (2D and 3D) and I seldom make logos. <br>  Currently I'm not specialized in any of these fields in particular, I'm still finding the best one for me. <br>  In any case this website serves the purpose of demonstrating my latest projects, as well as to keep track of my journey through them.</p>";
+  txt =	"<p class='about__text'>Welcome lucky visitor! I am a 16 years old italian boy who loves programming and learning new things (think of this website as a demonstration of it <i class='bx bx-smile' ></i>). <br> I'm attending the upper secondary school in an Information Technology institute, but everything you see here is done by learning the skills I needed as a self-taught. <br> Indeed I like to experiment with pretty much every aspect of developing in general and trying out new things to learn from them to improve myself. <br> For now I have done work in software, web and videogame develompment, but I also experiment with fractals (2D and 3D) and I seldom make logos. <br>  Currently I'm not specialized in any of these fields in particular, I'm still finding the best one for me. <br>  In any case this website serves the purpose of demonstrating my latest projects, as well as to keep track of my journey through them.</p>";
   document.getElementById("about__text").innerHTML = txt;
 
   txt =	"<p class='back-text' id='back-text'>Hi!</p>";
@@ -29,7 +29,7 @@ function eng() {
   txt =	"<p class='skills__subtitle' id='skills__subtitle'>Professional skills</p>";
   document.getElementById("skills__subtitle").innerHTML = txt;
 
-  txt =	"<p class='skills__text' id='skills__text'>For now I have used HTML5 <i class='bx bxl-html5 ' ></i>, CSS3 <i class='bx bxl-css3 ' ></i>, Javascript <i class='bx bxl-javascript ' ></i>, Python, C# (in Unity), C++ and Java language, but I'm still learning them.<br>The programs that I've used (or sperimented with) for now are Unity, Blender, Visual Studio, Visual Studio Code, Android Studio, Eclipse and others (<em>see the image</em>).</p>";
+  txt =	"<p class='skills__text' id='skills__text'>For now I have used HTML <i class='bx bxl-html5 ' ></i>, CSS <i class='bx bxl-css3 ' ></i>, Javascript <i class='bx bxl-javascript ' ></i>, Python, C# (in Unity), C++ and Java language, but I'm still learning them.<br>The programs that I've used (or sperimented with) for now are Unity, Blender, Visual Studio, Visual Studio Code, Android Studio, Eclipse and others (<em>see the image</em>).</p>";
   document.getElementById("skills__text").innerHTML = txt;
 
   txt =	"<p class='work__text' id='work__text'>These are some of my main projects:</p>";
@@ -130,7 +130,7 @@ function ita() {
   txt =	"<p class='about__subtitle'>Qualcosa su di me</p>";
   document.getElementById("about__subtitle").innerHTML = txt;
 
-  txt =	"<p class='about__text'>Benvenuto fortunato visitatore! Sono un ragazzo italiano di 16 anni che ama programmare e imparare cose nuove (pensa a questo sito come una dimostrazione di ciò <i class='bx bx-smile' ></i>). <br> Sono in seconda superiore all'Istituto Tecnico Informatico, ma ogni cosa che vedi qui è stata fatta imparando le abilità che mi servivano da autodidatta. <br> Infatti mi piace sperimentare con la maggior parte degli aspetti dello sviluppo informatico in generale e prolete nuove cose da imparare da quest'ultimi per migliorare me stesso. <br> Per ora ho lavorato per realizzare progetti software, web e sviluppo di videogiochi, ho sperimentato anche con i frattali (2D e 3D) e raramente disegno loghi. <br> Attualmente non sono specializzato in nessuno di questi campi in particolare, sto ancora cercando il migliore per me. <br> In ogni caso questo sito ha lo scopo di mostrare i miei ultimi progetti e tenere traccia della avventura in cui mi immergo grazie a essi.</p>";
+  txt =	"<p class='about__text'>Benvenuto fortunato visitatore! Sono un ragazzo italiano di 16 anni che ama programmare e imparare cose nuove (pensa a questo sito come una dimostrazione di ciò <i class='bx bx-smile' ></i>). <br> Frequento le superiori all'Istituto Tecnico Informatico, ma ogni cosa che vedi qui è stata fatta imparando le abilità che mi servivano da autodidatta. <br> Infatti mi piace sperimentare con la maggior parte degli aspetti dello sviluppo informatico in generale e prolete nuove cose da imparare da quest'ultimi per migliorare me stesso. <br> Per ora ho lavorato per realizzare progetti software, web e sviluppo di videogiochi, ho sperimentato anche con i frattali (2D e 3D) e raramente disegno loghi. <br> Attualmente non sono specializzato in nessuno di questi campi in particolare, sto ancora cercando il migliore per me. <br> In ogni caso questo sito ha lo scopo di mostrare i miei ultimi progetti e tenere traccia della avventura in cui mi immergo grazie a essi.</p>";
   document.getElementById("about__text").innerHTML = txt;
 
   txt =	"<p class='back-text' id='back-text'>Ciao!</p>";
@@ -142,7 +142,7 @@ function ita() {
   txt =	"<p class='skills__subtitle' id='skills__subtitle'>Abilità professionali</p>";
   document.getElementById("skills__subtitle").innerHTML = txt;
   
-  txt =	"<p class='skills__text' id='skills__text'>Per adesso ho usato il linguaggio HTML5 <i class='bx bxl-html5 ' ></i>, CSS3 <i class='bx bxl-css3 ' ></i>, Javascript <i class='bx bxl-javascript ' ></i>, Python, C# (in Unity), C++ e Java, ma li sto ancora imparando.<br>I programmi che ho usato (o con cui ho sperimentato) per ora sono Unity, Blender, Visual Studio, Visual Studio Code, Android Studio, Eclipse e altri (<em>vedi l'immagine</em>).</p>";
+  txt =	"<p class='skills__text' id='skills__text'>Per adesso ho usato il linguaggio HTML <i class='bx bxl-html5 ' ></i>, CSS <i class='bx bxl-css3 ' ></i>, Javascript <i class='bx bxl-javascript ' ></i>, Python, C# (in Unity), C++ e Java, ma li sto ancora imparando.<br>I programmi che ho usato (o con cui ho sperimentato) per ora sono Unity, Blender, Visual Studio, Visual Studio Code, Android Studio, Eclipse e altri (<em>vedi l'immagine</em>).</p>";
   document.getElementById("skills__text").innerHTML = txt;
 
   txt =	"<p class='work__text' id='work__text'>Questi sono alcuni dei miei principali progetti:</p>";

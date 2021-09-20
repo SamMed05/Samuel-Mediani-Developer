@@ -12,13 +12,7 @@
     color: #fff;
     border-color: #fff;
 }
-.dark .cv-button:after, .cv-button:before {
-    border-color: #fff;
-}
-.dark .cv-button:after {
-    border-color: #fff;
-}
-.dark .cv-button:before {
+.dark .cv-button:after, .dark .cv-button:before {
     border-color: #fff;
 }
 .dark .cv-button:hover:after, .cv-button:hover:before {
