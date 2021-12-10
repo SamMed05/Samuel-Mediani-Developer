@@ -621,10 +621,20 @@ img {
     font-size: 2rem;
     color: var(--second-color);
     cursor: pointer;
+    transition: color .3s ease;
 }
 
-.home__social-icon:hover {
+/* .home__social-icon:hover {
     color: var(--first-color);
+} */
+.home__social-icon.twitter:hover {
+    color: #1DA1F2;
+}
+.home__social-icon.github:hover {
+    color: #333;
+}
+.home__social-icon.youtube:hover {
+    color: #FF0000;
 }
 
 .home__img {
