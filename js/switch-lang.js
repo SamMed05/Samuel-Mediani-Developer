@@ -34,7 +34,7 @@ function eng() {
   txt =	"<p class='skills__text' id='skills__text'>For now I have used HTML <i class='bx bxl-html5 ' ></i>, CSS <i class='bx bxl-css3 ' ></i>, Javascript <i class='bx bxl-javascript ' ></i>, Python, C# (in Unity), C++ and Java language, but I'm still learning them.<br>The programs that I've used (or sperimented with) for now are Unity, Blender, Visual Studio, Visual Studio Code, Android Studio, Eclipse and others (<em>see the image</em>).</p>";
   document.getElementById("skills__text").innerHTML = txt;
 
-  txt =	"<p class='work__text' id='work__text'>These are some of my main projects:</p>";
+  txt =	"<p class='work__text' id='work__text'>These are some of my best projects:</p>";
   document.getElementById("work__text").innerHTML = txt;
 
 
@@ -42,43 +42,43 @@ function eng() {
   document.getElementById("bx-title1").innerHTML = txt;
   txt =	"<p id='bx-text1'>In this project - inspired by a tutorial of Blender Guru - I've created a neon text with my name.</p>";
   document.getElementById("bx-text1").innerHTML = txt;
-  txt =	"<p id='work__button'>OPEN!</p>";
-  document.getElementById("work__button").innerHTML = txt;
+  // txt =	"<p id='work__button'>OPEN!</p>";
+  // document.getElementById("work__button").innerHTML = txt;
   
   txt =	"<p id='bx-title2'>First Landscape</p>";
   document.getElementById("bx-title2").innerHTML = txt;
   txt =	"<p id='bx-text2'>This is one of my first Blender projects I've made (2019).</p>";
   document.getElementById("bx-text2").innerHTML = txt;
-  txt =	"<p id='work__button'>OPEN!</p>";
-  document.getElementById("work__button").innerHTML = txt;
+  // txt =	"<p id='work__button'>OPEN!</p>";
+  // document.getElementById("work__button").innerHTML = txt;
 
-  txt =	"<p id='bx-title3'>Candle</p>";
-  document.getElementById("bx-title3").innerHTML = txt;
-  txt =	"<p id='bx-text3'>Another project of a melting candle (using subsurface scattering).</p>";
-  document.getElementById("bx-text3").innerHTML = txt;
-  txt =	"<p id='work__button'>OPEN!</p>";
-  document.getElementById("work__button").innerHTML = txt;
+  // txt =	"<p id='bx-title3'>Candle</p>";
+  // document.getElementById("bx-title3").innerHTML = txt;
+  // txt =	"<p id='bx-text3'>Another project of a melting candle (using subsurface scattering).</p>";
+  // document.getElementById("bx-text3").innerHTML = txt;
+  // txt =	"<p id='work__button'>OPEN!</p>";
+  // document.getElementById("work__button").innerHTML = txt;
 
   txt =	"<p id='bx-title4'>Realistic Landscape</p>";
   document.getElementById("bx-title4").innerHTML = txt;
   txt =	"<p id='bx-text4'>Here I tryed to make a realistic landscape with Terragen 4 (note the differences with the Blender one).</p>";
   document.getElementById("bx-text4").innerHTML = txt;
-  txt =	"<p id='work__button'>OPEN!</p>";
-  document.getElementById("work__button").innerHTML = txt;
+  // txt =	"<p id='work__button'>OPEN!</p>";
+  // document.getElementById("work__button").innerHTML = txt;
 
   txt =	"<p id='bx-title5'>Tesla Cybertruck</p>";
   document.getElementById("bx-title5").innerHTML = txt;
   txt =	"<p id='bx-text5'>Fascinated by the minimal design of this car, I decided to make my own version in Blender.</p>";
   document.getElementById("bx-text5").innerHTML = txt;
-  txt =	"<p id='work__button'>OPEN!</p>";
-  document.getElementById("work__button").innerHTML = txt;
+  // txt =	"<p id='work__button'>OPEN!</p>";
+  // document.getElementById("work__button").innerHTML = txt;
 
   txt =	"<p id='bx-title6'>My First Game</p>";
   document.getElementById("bx-title6").innerHTML = txt;
   txt =	"<p id='bx-text6'>Now I'm working on a game based on squares, but it's work-in-progress yet.</p>";
   document.getElementById("bx-text6").innerHTML = txt;
-  txt =	"<p id='work__button'>OPEN!</p>";
-  document.getElementById("work__button").innerHTML = txt;
+  // txt =	"<p id='work__button'>OPEN!</p>";
+  // document.getElementById("work__button").innerHTML = txt;
 
   txt =	"<p id='bx-title7'>My First Website</p>";
   document.getElementById("bx-title7").innerHTML = txt;
@@ -91,8 +91,8 @@ function eng() {
   document.getElementById("bx-title8").innerHTML = txt;
   txt =	"<p id='bx-text8'>This is one of my favourite projects, by a tutorial of 'The Art Of Code'. Look at this beautiful colors!</p>";
   document.getElementById("bx-text8").innerHTML = txt;
-  txt =	"<p id='work__button'>OPEN!</p>";
-  document.getElementById("work__button").innerHTML = txt;
+  // txt =	"<p id='work__button'>OPEN!</p>";
+  // document.getElementById("work__button").innerHTML = txt;
 
   txt =	"<p id='bx-title9'>Rock Paper Scissors</p>";
   document.getElementById("bx-title9").innerHTML = txt;
@@ -108,12 +108,23 @@ function eng() {
   txt =	"<p id='work__button'>OPEN!</p>";
   document.getElementById("work__button").innerHTML = txt;
 
+  txt =	"<p id='bx-title11'>C/C++ Notes</p>";
+  document.getElementById("bx-title11").innerHTML = txt;
+  txt =	"<p id='bx-text11'>If you want to learn C++ this is the best place to do it!<br>Click to visit it!</p>";
+  document.getElementById("bx-text11").innerHTML = txt;
+  txt =	"<p id='work__button'>OPEN!</p>";
+  document.getElementById("work__button").innerHTML = txt;
+
+
   txt =	"<p class='contact__text' id='contact__text'>Currently <strong>I'm not avaiable to get a job</strong> so there is no need to contact me. <br>Maybe when I will be of age and I will have learned other things you will be able to do it <i class='bx bx-smile' ></i>.</p>";
   document.getElementById("contact__text").innerHTML = txt;
   
   txt =	"<p id='footer__text'>Copyright &#169; Samuel Mediani 2020. All right reserved. - <em>HANDMADE</em></p>";
   document.getElementById("footer__text").innerHTML = txt;
 }
+
+
+
 
 
 // ITALIANO
@@ -149,7 +160,7 @@ function ita() {
   txt =	"<p class='skills__text' id='skills__text'>Per adesso ho usato il linguaggio HTML <i class='bx bxl-html5 ' ></i>, CSS <i class='bx bxl-css3 ' ></i>, Javascript <i class='bx bxl-javascript ' ></i>, Python, C# (in Unity), C++ e Java, ma li sto ancora imparando.<br>I programmi che ho usato (o con cui ho sperimentato) per ora sono Unity, Blender, Visual Studio, Visual Studio Code, Android Studio, Eclipse e altri (<em>vedi l'immagine</em>).</p>";
   document.getElementById("skills__text").innerHTML = txt;
 
-  txt =	"<p class='work__text' id='work__text'>Questi sono alcuni dei miei principali progetti:</p>";
+  txt =	"<p class='work__text' id='work__text'>Questi sono alcuni dei miei migliori progetti:</p>";
   document.getElementById("work__text").innerHTML = txt;
 
   txt =	"<p id='bx-title1'>Blender Scritta Neon</p>";
@@ -163,36 +174,36 @@ function ita() {
   document.getElementById("bx-title2").innerHTML = txt;
   txt =	"<p id='bx-text2'>Questo è uno dei miei primi progetti fatti con Blender (2019).</p>";
   document.getElementById("bx-text2").innerHTML = txt;
-  txt =	"<p id='work__button'>APRI!</p>";
-  document.getElementById("work__button").innerHTML = txt;
+  // txt =	"<p id='work__button'>APRI!</p>";
+  // document.getElementById("work__button").innerHTML = txt;
 
-  txt =	"<p id='bx-title3'>Candela</p>";
-  document.getElementById("bx-title3").innerHTML = txt;
-  txt =	"<p id='bx-text3'>Un altro progetto di una candela che si scioglie (usando il subsurface scattering).</p>";
-  document.getElementById("bx-text3").innerHTML = txt;
-  txt =	"<p id='work__button'>APRI!</p>";
-  document.getElementById("work__button").innerHTML = txt;
+  // txt =	"<p id='bx-title3'>Candela</p>";
+  // document.getElementById("bx-title3").innerHTML = txt;
+  // txt =	"<p id='bx-text3'>Un altro progetto di una candela che si scioglie (usando il subsurface scattering).</p>";
+  // document.getElementById("bx-text3").innerHTML = txt;
+  // txt =	"<p id='work__button'>APRI!</p>";
+  // document.getElementById("work__button").innerHTML = txt;
 
   txt =	"<p id='bx-title4'>Paesaggio Realistico</p>";
   document.getElementById("bx-title4").innerHTML = txt;
   txt =	"<p id='bx-text4'>Qui ho provato a creare un paesaggio realistico con Terragen 4 (notare le differenze con la versione Blender).</p>";
   document.getElementById("bx-text4").innerHTML = txt;
-  txt =	"<p id='work__button'>APRI!</p>";
-  document.getElementById("work__button").innerHTML = txt;
+  // txt =	"<p id='work__button'>APRI!</p>";
+  // document.getElementById("work__button").innerHTML = txt;
 
   txt =	"<p id='bx-title5'>Tesla Cybertruck</p>";
   document.getElementById("bx-title5").innerHTML = txt;
   txt =	"<p id='bx-text5'>Affascinato dal design minimale di questa macchina, ho deciso di creare la mia versione con Blender.</p>";
   document.getElementById("bx-text5").innerHTML = txt;
-  txt =	"<p id='work__button'>APRI!</p>";
-  document.getElementById("work__button").innerHTML = txt;
+  // txt =	"<p id='work__button'>APRI!</p>";
+  // document.getElementById("work__button").innerHTML = txt;
 
   txt =	"<p id='bx-title6'>Primo Gioco</p>";
   document.getElementById("bx-title6").innerHTML = txt;
   txt =	"<p id='bx-text6'>Ora sto lavorando su un gioco basato sui quadrati, ma è ancora work-in-progress.</p>";
   document.getElementById("bx-text6").innerHTML = txt;
-  txt =	"<p id='work__button'>APRI!</p>";
-  document.getElementById("work__button").innerHTML = txt;
+  // txt =	"<p id='work__button'>APRI!</p>";
+  // document.getElementById("work__button").innerHTML = txt;
 
   txt =	"<p id='bx-title7'>Primo Sito</p>";
   document.getElementById("bx-title7").innerHTML = txt;
@@ -205,8 +216,8 @@ function ita() {
   document.getElementById("bx-title8").innerHTML = txt;
   txt =	"<p id='bx-text8'>Questo è uno dei miei progetti preferiti, da un tutorial di 'The Art Of Code'. Guarda che bei colori!</p>";
   document.getElementById("bx-text8").innerHTML = txt;
-  txt =	"<p id='work__button'>APRI!</p>";
-  document.getElementById("work__button").innerHTML = txt;
+  // txt =	"<p id='work__button'>APRI!</p>";
+  // document.getElementById("work__button").innerHTML = txt;
   
   txt =	"<p id='bx-title9'>Sasso Carta Forbici</p>";
   document.getElementById("bx-title9").innerHTML = txt;
@@ -216,11 +227,19 @@ function ita() {
   document.getElementById("work__button").innerHTML = txt;
 
   txt =	"<p id='bx-title10'>Blog</p>";
-  document.getElementById("bx-title9").innerHTML = txt;
+  document.getElementById("bx-title10").innerHTML = txt;
   txt =	"<p id='bx-text10'>Qui scrivo sui miei pensieri, sulla mia vita e sulle mie passioni.<br>Clicca per visitarlo!</p>";
   document.getElementById("bx-text10").innerHTML = txt;
   txt =	"<p id='work__button'>APRI!</p>";
   document.getElementById("work__button").innerHTML = txt;
+
+  txt =	"<p id='bx-title11'>C/C++ Notes</p>";
+  document.getElementById("bx-title11").innerHTML = txt;
+  txt =	"<p id='bx-text11'>Se vuoi imparare C++ questo è il posto migliore per farlo!<br>Clicca per aprirlo!</p>";
+  document.getElementById("bx-text11").innerHTML = txt;
+  txt =	"<p id='work__button'>APRI!</p>";
+  document.getElementById("work__button").innerHTML = txt;
+
 
   txt =	"<p class='contact__text' id='contact__text'>Attualmente <strong>non sono disponibile per ottenere un lavoro</strong> quindi non c'è nessun bisogno di contattarmi. <br>Forse quando sarò di maggiore età e avrò imparato altre cose potrai/potrete farlo <i class='bx bx-smile' ></i>.</p>";
   document.getElementById("contact__text").innerHTML = txt;

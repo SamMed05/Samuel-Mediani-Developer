@@ -208,7 +208,7 @@
                             <span class="skills__name">HTML5</span>
                         </div>
                         <div>
-                            <span class="skills__percentage">75%</span>
+                            <span class="skills__percentage">80%</span>
                         </div>
                         <div class="skills__bar skills__html"></div>
                     </div>
@@ -219,9 +219,20 @@
                             <span class="skills__name">CSS3</span>
                         </div>
                         <div>
-                            <span class="skills__percentage">60%</span>
+                            <span class="skills__percentage">50%</span>
                         </div>
                         <div class="skills__bar skills__css"></div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-c-plus-plus skills__icon'></i>
+                            <span class="skills__name">C++</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                        <div class="skills__bar skills__cpp"></div>
                     </div>
 
                     <div class="skills__data">
@@ -230,20 +241,9 @@
                             <span class="skills__name">PYTHON</span>
                         </div>
                         <div>
-                            <span class="skills__percentage">70%</span>
+                            <span class="skills__percentage">60%</span>
                         </div>
                         <div class="skills__bar skills__py"></div>
-                    </div>
-
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxs-component skills__icon' ></i>
-                            <span class="skills__name">BLENDER</span>
-                        </div>
-                        <div>
-                            <span class="skills__percentage">75%</span>
-                        </div>
-                        <div class="skills__bar skills__blender"></div>
                     </div>
 
                     <div class="skills__data">
@@ -255,6 +255,17 @@
                             <span class="skills__percentage">40%</span>
                         </div>
                         <div class="skills__bar skills__unity"></div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-component skills__icon' ></i>
+                            <span class="skills__name">BLENDER</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">50%</span>
+                        </div>
+                        <div class="skills__bar skills__blender"></div>
                     </div>
                 </div>
 
@@ -268,7 +279,7 @@
         <section class="work section" id="work">
             <h2 class="section-title">Work</h2>
 
-            <p class="work__text" id="work__text">These are some of my main projects:</p>
+            <p class="work__text" id="work__text">These are some of my best projects:</p>
 
             <div class="work__container bd-grid">
 
@@ -387,6 +398,19 @@
                         </div>
                     </a>
                 </div>
+
+                <div class="work__img">
+                    <a href="https://c-cpp-notes.vercel.app/" target="_blank" style="color: #fff;">
+                        <img src="./img/work11.jpg" alt="C/C++ Notes" id="myImg11">
+                        <div class="contentBx">
+                            <div class="contentTx">
+                                <h2 id="bx-title11">C/C++ Notes</h2>
+                                <p id="bx-text11">If you want to learn C++ this is the best place to do it!<br>Click to visit it!</p>
+                                <a><button class="work__button" id="work__button">OPEN!</button></a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
             <br>
 
@@ -420,6 +444,7 @@
             var img8 = document.getElementById("myImg8");
             var img9 = document.getElementById("myImg9");
             var img10 = document.getElementById("myImg10");
+            var img11 = document.getElementById("myImg11");
 
             var modalImg = document.getElementById("img01");
             var captionText = document.getElementById("caption");
@@ -469,6 +494,11 @@
               captionText.innerHTML = this.alt;
             }
             img10.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+            img11.onclick = function(){
               modal.style.display = "block";
               modalImg.src = this.src;
               captionText.innerHTML = this.alt;

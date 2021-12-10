@@ -828,23 +828,22 @@ img {
 }
 
 .skills__html {
+    width: 80%
+}
+.skills__css {
+    width: 50%
+}
+.skills__cpp {
     width: 75%
 }
-
-.skills__css {
+.skills__py {
     width: 60%
 }
-
-.skills__py {
-    width: 70%
-}
-
-.skills__blender {
-    width: 75%
-}
-
 .skills__unity {
     width: 40%
+}
+.skills__blender {
+    width: 50%
 }
 
 .skills__img {
