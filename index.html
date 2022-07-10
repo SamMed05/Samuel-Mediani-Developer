@@ -91,7 +91,7 @@
                 <h1 class="home__title" id="home__title">Hi, <br>I'm <span class='home__title-color'>Samuel</span><br> I love making </h1>
                     
                 <div class>
-                    <h1 class="space-before">-<a href="#work" class="typewrite" id="typewrite" data-period="1200" data-type='["videogames", "3D models", "websites", "tutorials", "logos", "fractals", "music", "generative art"]'>
+                    <h1 class="space-before">-<a href="#work" class="typewrite" id="typewrite" data-period="1200" data-type='["videogames", "3D models", "websites", "tutorials", "illustrations", "fractals", "music", "generative art"]'>
                         <span class="wrap"></span></a>
                     </h1>
                 </div>
@@ -165,21 +165,20 @@
                     function age(birthday)
                     {
                       birthday = new Date(birthday);
-                      return new Number((new Date().getTime() - birthday.getTime()) / 31536000000).toFixed(0) - 1;
+                      return new Number((new Date().getTime() - birthday.getTime()) / 31536000000).toFixed(0);
                     }
-                    
                 </script>
                 
                 <div>
                     <h2 class="about__subtitle" id="about__subtitle">Something about me</h2>
-                    <p class="about__text about__text1" id="about__text1" style="display:inline">Welcome lucky visitor! I am a </p>
+                    <p class="about__text about__text1" id="about__text1">Welcome lucky visitor! I am a </p>
                     <!-- <p id="age" style="display:inline">0</p> -->
                     <p class="about__text" style="display:inline" title="This number is updated automatically :)"><script type="text/javascript">document.write(age("4 April 2005"))</script></p>
-                    <p class="about__text about__text2" id="about__text2" style="display:inline">
-                        years old italian boy who loves programming and learning new things (think of this website as a demonstration of it <i class='bx bx-smile' ></i>). <br>
+                    <p class="about__text about__text2" id="about__text2">
+                        years old italian student who loves programming and learning new things (think of this website as a demonstration of my passions <i class='bx bx-smile' ></i>). <br>
                         I'm attending the upper secondary school in an Information Technology institute, but everything you see here is done by learning the skills I needed as a self-taught.<br>
                         Indeed I like experimenting with pretty much every aspect of developing in general and trying out new things to learn from them to improve myself. <br>
-                        For now I have done work in software, web and videogame development, but I also experiment with fractals (2D and 3D) and I seldom make logos.<br>
+                        For now I have done work in software, web and videogame development, but I also experiment with fractals (2D and 3D) and I seldom do graphic design.<br>
                         Currently I'm not specialized in any of these fields in particular, I'm still finding the best one for me. <br>
                         In any case this website serves the purpose of demonstrating my latest projects, as well as to keep track of my journey through them.
                     </p>
@@ -561,7 +560,10 @@
             <!-- <a href="#" target="_blank" class="footer__icon"><i class='bx bxl-linkedin-square' ></i></a> -->
             <a href="https://www.youtube.com/channel/UC_hW38-klNAurljQk8g25ww" target="_blank" class="footer__icon"><i class='bx bxl-youtube' ></i></a>
         </div>
-        <p id="footer__text">Copyright &#169; 2019 Samuel Mediani.<br>All right reserved ⁠–⁠ <em>HANDMADE</em></p>
+        <p id="footer__text">
+            Copyright &#169; 2019 Samuel Mediani.<br>
+            Customized from <i><a href="https://youtu.be/AKNvTxWOdKw">this</a></i> template.
+        </p>
     </footer>
 
     <!-- ========= MAIN JS ========= -->
