@@ -119,7 +119,7 @@ function eng() {
   txt =	"<p class='contact__text' id='contact__text'>Currently <strong>I'm not avaiable to get a job</strong> so there is no need to contact me. <br>Maybe when I will be of age and I will have learned other things you will be able to do it <i class='bx bx-smile' ></i>.</p>";
   document.getElementById("contact__text").innerHTML = txt;
   
-  txt =	"<p id='footer__text'>Copyright &#169; Samuel Mediani 2020. All right reserved. - <em>HANDMADE</em></p>";
+  txt =	"<p id='footer__text'>Copyright &#169; Samuel Mediani 2019.<br>Customized from <i><a href='https://youtu.be/AKNvTxWOdKw'>this</a></i> template.</p>";
   document.getElementById("footer__text").innerHTML = txt;
 }
 
@@ -244,6 +244,6 @@ function ita() {
   txt =	"<p class='contact__text' id='contact__text'>Attualmente <strong>non sono disponibile per ottenere un lavoro</strong> quindi non c'è nessun bisogno di contattarmi. <br>Forse quando sarò di maggiore età e avrò imparato altre cose potrai/potrete farlo <i class='bx bx-smile' ></i>.</p>";
   document.getElementById("contact__text").innerHTML = txt;
 
-  txt =	"<p id='footer__text'>Copyright &#169; Samuel Mediani 2020. Tutti i diritti riservati. - <em>Fatto a mano</em></p>";
+  txt =	"<p id='footer__text'>Copyright &#169; Samuel Mediani 2019.<br>Personalizzato da <i><a href='https://youtu.be/AKNvTxWOdKw'>this</a></i> template.</p>";
   document.getElementById("footer__text").innerHTML = txt;
 }
