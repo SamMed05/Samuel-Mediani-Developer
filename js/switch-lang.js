@@ -89,7 +89,7 @@ function eng() {
 
   txt =	"<p id='bx-title8'>Mandelbrot Set</p>";
   document.getElementById("bx-title8").innerHTML = txt;
-  txt =	"<p id='bx-text8'>This is one of my favourite projects, by a tutorial of 'The Art Of Code'. Look at this beautiful colors!</p>";
+  txt =	"<p id='bx-text8'>This is one of my favourite projects, by a tutorial of 'The Art Of Code'. Look at these beautiful colors!</p>";
   document.getElementById("bx-text8").innerHTML = txt;
   // txt =	"<p id='work__button'>OPEN!</p>";
   // document.getElementById("work__button").innerHTML = txt;
