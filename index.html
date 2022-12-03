@@ -170,7 +170,7 @@
                     function age(birthday)
                     {
                       birthday = new Date(birthday);
-                      return new Number((new Date().getTime() - birthday.getTime()) / 31536000000).toFixed(0);
+                      return new Number((new Date().getTime() - birthday.getTime()) / 31536000000).toFixed(0) - 1;
                     }
                 </script>
                 
@@ -348,7 +348,7 @@
                         <div class="contentTx">
                             <h2 id="bx-title6">My first game</h2>
                             <p id="bx-text6">Now I'm working on a game based on squares, but it's work-in-progress yet.</p>
-                            <a><button class="work__button" id="work__button">OPEN!</button></a>
+                            <!-- <a><button class="work__button" id="work__button">OPEN!</button></a> -->
                         </div>
                     </div>
                 </div>
@@ -420,7 +420,17 @@
 
             <h2 class="section-title">3D model</h2></section>
             <!-- https://modelviewer.dev/examples/stagingandcameras/ -->
-            <model-viewer id="tesla-model" camera-controls disable-zoom shadow-intensity="0" ar camera-orbit="calc(-2.1rad + env(window-scroll-y) * -3.8rad) calc(17deg + env(window-scroll-y) * 75deg) calc(10 - env(window-scroll-y) * 5m)" skybox-image="./img/hdri-enviroment-map.jpg" enviroment-image="./img/hdri-enviroment-map.jpg" style="width: auto; min-height: 35vw; margin: auto; margin-left: calc(11vw - 1rem); margin-right: calc(11vw - 1rem); border-radius: 10px;" src="./misc/tesla-cybertruck-web_model.glb" alt="A 3D model of Tesla Cybertruck!" title="Tesla Cybertruck 3D model"></model-viewer> <!-- margin-left: 10vw; margin-right: 10vw; border-radius: 10px; -->
+            <model-viewer id="tesla-model" 
+                          camera-controls disable-zoom shadow-intensity="0" 
+                          ar 
+                          camera-orbit="calc(-2.1rad + env(window-scroll-y) * -3.8rad) calc(17deg + env(window-scroll-y) * 75deg) calc(10 - env(window-scroll-y) * 5m)" 
+                          skybox-image="./img/hdri-enviroment-map.jpg" 
+                          enviroment-image="./img/hdri-enviroment-map.jpg" 
+                          style="width: auto; min-height: 35vw; margin: auto; margin-left: calc(11vw - 1rem); margin-right: calc(11vw - 1rem); border-radius: 10px;" 
+                          src="./misc/tesla-cybertruck-web_model.glb" 
+                          alt="A 3D model of Tesla Cybertruck!" 
+                          title="Tesla Cybertruck 3D model">
+            </model-viewer> <!-- margin-left: 10vw; margin-right: 10vw; border-radius: 10px; -->
             
         
         </section>
@@ -567,7 +577,8 @@
         </div>
         <p id="footer__text">
             Copyright &#169; 2019 Samuel Mediani.<br>
-            Customized from <i><a href="https://youtu.be/AKNvTxWOdKw">this</a></i> template.
+            Customized from <i><a href="https://youtu.be/AKNvTxWOdKw">this</a></i> template.<br>
+            <em>Last update: December 2022</em>
         </p>
     </footer>
 
