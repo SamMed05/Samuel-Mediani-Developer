@@ -1,4 +1,4 @@
 # Samuel-Mediani-Developer
-This is the source code of my website. Hope it can be useful for someone!
+This is the source code of my website.
 
-Link: https://samdev.netlify.app/
+URL: https://samdev.netlify.app/

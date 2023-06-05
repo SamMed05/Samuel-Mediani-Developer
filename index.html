@@ -95,7 +95,7 @@
             <div class="home__data">
                 <h1 class="home__title" id="home__title">Hi, <br>I'm <span class='home__title-color'>Samuel</span><br> I love making </h1>
                     
-                <div class>
+                <div>
                     <h1 class="space-before">-<a href="#work" class="typewrite" id="typewrite" data-period="1200" data-type='["videogames", "3D models", "websites", "tutorials", "illustrations", "fractals", "music", "generative art"]'>
                         <span class="wrap"></span></a>
                     </h1>
@@ -177,13 +177,15 @@
                 <div>
                     <h2 class="about__subtitle" id="about__subtitle">Something about me</h2>
                     <p class="about__text about__text1" id="about__text1">Welcome lucky visitor! I am a </p>
-                    <!-- <p id="age" style="display:inline">0</p> -->
-                    <p class="about__text" style="display:inline" title="This number is updated automatically :)"><script type="text/javascript">document.write(age("4 April 2005"))</script></p>
+
+                    <p class="about__text" id="ageNumber" style="display:inline" title="This number is updated automatically :)"></p>
+                    <script>document.getElementById('ageNumber').innerHTML = (age("4 April 2005"))</script>
+                    
                     <p class="about__text about__text2" id="about__text2">
                         years old italian student who loves programming and learning new things (think of this website as a demonstration of my passions <i class='bx bx-smile' ></i>). <br>
                         I'm attending the upper secondary school in an Information Technology institute, but everything you see here is done by learning the skills I needed as a self-taught.<br>
                         Indeed I like experimenting with pretty much every aspect of developing in general and trying out new things to learn from them to improve myself. <br>
-                        For now I have done work in software, web and videogame development, but I also experiment with fractals (2D and 3D) and I seldom do graphic design.<br>
+                        For now I have done work in software, web and videogame development, but I also occasionally experiment with fractals (2D and 3D) and do graphic design.<br>
                         Currently I'm not specialized in any of these fields in particular, I'm still finding the best one for me. <br>
                         In any case this website serves the purpose of demonstrating my latest projects, as well as to keep track of my journey through them.
                     </p>
@@ -201,8 +203,7 @@
                 <div>
                     <h2 class="skills__subtitle" id="skills__subtitle">Professional skills</h2>
                     <p class="skills__text" id="skills__text">
-                    For now I have used HTML <i class='bx bxl-html5 ' ></i>, CSS <i class='bx bxl-css3 ' ></i>, Javascript <i class='bx bxl-javascript ' ></i>, Python <i class='bx bxl-python'></i>, C# (in Unity), C++ and Java language, but I'm still learning them.<br>
-                    The programs that I've used (or sperimented with) for now are Unity, Blender, Visual Studio, Visual Studio Code, Android Studio, Eclipse and others (<em>see the image</em>).
+                        As for programming languages, I've used HTML <i class='bx bxl-html5 ' ></i>, CSS <i class='bx bxl-css3 ' ></i>, JavaScript <i class='bx bxl-javascript ' ></i> (both vanilla and with some libraries), Python, C# (in Unity), C++ and Java, but I'm constantly learning new things about them.<br>The programs that I've used (or sperimented with) are Unity, Blender, Visual Studio, Visual Studio Code, Android Studio, Figma and others (see the image ➡️).
                     </p>
 
                     <!-- ========= BARS ========= -->
@@ -223,7 +224,7 @@
                             <span class="skills__name">CSS3</span>
                         </div>
                         <div>
-                            <span class="skills__percentage">50%</span>
+                            <span class="skills__percentage">65%</span>
                         </div>
                         <div class="skills__bar skills__css"></div>
                     </div>
@@ -234,7 +235,7 @@
                             <span class="skills__name">C++</span>
                         </div>
                         <div>
-                            <span class="skills__percentage">75%</span>
+                            <span class="skills__percentage">45%</span>
                         </div>
                         <div class="skills__bar skills__cpp"></div>
                     </div>
@@ -256,7 +257,7 @@
                             <span class="skills__name">UNITY</span>
                         </div>
                         <div>
-                            <span class="skills__percentage">40%</span>
+                            <span class="skills__percentage">50%</span>
                         </div>
                         <div class="skills__bar skills__unity"></div>
                     </div>
@@ -274,7 +275,7 @@
                 </div>
 
                 <div>
-                    <img src="./img/programs.jpg" alt="" class="skills__img">
+                    <img src="./img/programs.png" alt="" class="skills__img">
                 </div>
             </div>
         </section>
@@ -560,7 +561,7 @@
 
                     <input type="button" value="Send" class="contact__button button">
                 </form> -->
-                <p class="contact__text" id="contact__text">Currently <strong>I'm not avaiable to get a job</strong> so there is no need to contact me. <br>Maybe when I will be of age and I will have learned other things you will be able to do it <i class='bx bx-smile' ></i>.</p>
+                <p class="contact__text" id="contact__text">Currently <strong>I'm not avaiable to get a job</strong> so there is no need to contact me here. <br>You can still reach me on <a href="https://twitter.com/medianisamuel" target="_blank">Twitter</a> if you need to <i class='bx bx-smile'></i>.</p>
             </div>
         </section>
     </main>
@@ -577,8 +578,10 @@
         </div>
         <p id="footer__text">
             Copyright &#169; 2019 Samuel Mediani.<br>
-            Customized from <i><a href="https://youtu.be/AKNvTxWOdKw">this</a></i> template.<br>
-            <em>Last update: December 2022</em>
+            Customized from <i><a href="https://youtu.be/AKNvTxWOdKw">this</a></i> template.
+        </p>
+        <p>
+            <em>Last update: June 2023</em>
         </p>
     </footer>
 
@@ -587,7 +590,7 @@
     <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 
     <!-- Magic Leap support -->
-    <script src="./js/prismatic.js"></script>
+    <!-- <script src="./js/prismatic.js"></script> -->
 
 </body>
 </html>

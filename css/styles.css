@@ -838,16 +838,16 @@ img {
     width: 80%
 }
 .skills__css {
-    width: 50%
+    width: 65%
 }
 .skills__cpp {
-    width: 75%
+    width: 45%
 }
 .skills__py {
     width: 60%
 }
 .skills__unity {
-    width: 40%
+    width: 50%
 }
 .skills__blender {
     width: 50%
@@ -1092,7 +1092,7 @@ img {
     color: #fff;
     text-align: center;
     font-size: .9rem;
-    font-weight: var(--font-semi);
+    /*font-weight: var(--font-semi);*/
     padding: 2rem 0;
 }
 
