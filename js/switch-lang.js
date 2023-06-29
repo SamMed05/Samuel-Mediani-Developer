@@ -22,7 +22,7 @@ function eng() {
 
   txt = "<p class='about__text1'>Welcome lucky visitor! I am a </p>";
   document.getElementById("about__text1").innerHTML = txt;
-  txt = "<p class='about__text2'> years old italian student who loves programming and learning new things (think of this website as a demonstration of my passions <i class='bx bx-smile' ></i>). <br> I'm attending the upper secondary school in an Information Technology institute, but everything you see here is done by learning the skills I needed as a self-taught. <br> Indeed I like to experiment with pretty much every aspect of developing in general and trying out new things to learn from them to improve myself. <br> For now I have done work in software, web and videogame develompment, but I also occasionally experiment with fractals (2D and 3D) and do graphic design. <br>  Currently I'm not specialized in any of these fields in particular, I'm still finding the best one for me. <br>  In any case this website serves the purpose of demonstrating my latest projects, as well as to keep track of my journey through them.</p>";
+  txt = "<p class='about__text2'> years old italian student who loves programming and learning new things (think about this website as a demonstration of my passions <i class='bx bx-smile' ></i>). <br> I'm attending the upper secondary school in an Information Technology institute, but everything you see here is done by learning the skills I needed as a self-taught. <br> Indeed I like to experiment with pretty much every aspect of developing in general and trying out new things to learn from them to improve myself. <br> For now I have done work in software, web and videogame develompment, but I also occasionally experiment with fractals (2D and 3D) and do graphic design. <br>  Currently I'm not specialized in any of these fields in particular, I'm still finding the best one for me. <br>  In any case this website serves the purpose of demonstrating my latest projects, as well as to keep track of my journey through them.</p>";
   document.getElementById("about__text2").innerHTML = txt;
 
   txt = "<p class='back-text' id='back-text'>Hi!</p>";
@@ -116,6 +116,21 @@ function eng() {
   document.getElementById("bx-text11").innerHTML = txt;
   txt = "<p id='work__button'>OPEN!</p>";
   document.getElementById("work__button").innerHTML = txt;
+
+  txt = "<p id='bx-title12'>Chrome Extensions</p>";
+  document.getElementById("bx-title12").innerHTML = txt;
+  txt = "<p id='bx-text11'>I've experimented with the Chrome API building a few little extensions.</p>";
+  document.getElementById("bx-text12").innerHTML = txt;
+  txt = "<p id='work__button'>OPEN!</p>";
+  document.getElementById("work__button").innerHTML = txt;
+
+  txt = "<p id='bx-title13'>Windows 11 Wallpaper</p>";
+  document.getElementById("bx-title13").innerHTML = txt;
+  txt = "<p id='bx-text13'>Inspired by a tutorial from Haritha Siriwardana, I've created a wallpaper in Blender using cloth simulation in the Windows 11 design style.</p>";
+  document.getElementById("bx-text13").innerHTML = txt;
+  txt = "<p id='work__button'>OPEN!</p>";
+  document.getElementById("work__button").innerHTML = txt;
+
 
   txt = "<p class='contact__text' id='contact__text'>Currently <strong>I'm not avaiable to get a job</strong> so there is no need to contact me here. <br>You can still reach me on <a href=\"https://twitter.com/medianisamuel\" target=\"_blank\">Twitter</a> if you need to <i class='bx bx-smile' ></i>.</p>";
   document.getElementById("contact__text").innerHTML = txt;
@@ -238,6 +253,20 @@ function ita() {
   txt = "<p id='bx-text11'>Se vuoi imparare C++ questo è il posto migliore per farlo!<br>Clicca per aprirlo!</p>";
   document.getElementById("bx-text11").innerHTML = txt;
   txt = "<p id='work__button'>APRI!</p>";
+  document.getElementById("work__button").innerHTML = txt;
+
+  txt = "<p id='bx-title12'>Estensioni Chrome</p>";
+  document.getElementById("bx-title12").innerHTML = txt;
+  txt = "<p id='bx-text11'>Ho sperimentato con l'API di Chrome per creare alcune piccole estensioni.</p>";
+  document.getElementById("bx-text12").innerHTML = txt;
+  txt = "<p id='work__button'>APRI!</p>";
+  document.getElementById("work__button").innerHTML = txt;
+
+  txt = "<p id='bx-title13'>Sfondo Windows 11</p>";
+  document.getElementById("bx-title13").innerHTML = txt;
+  txt = "<p id='bx-text13'>Ispirato da un tutorial di Haritha Siriwardana, ho creato uno sfondo in stile Windows 11 con Blender usando una simulazione fisica dei tessuti.</p>";
+  document.getElementById("bx-text13").innerHTML = txt;
+  txt = "<p id='work__button'>OPEN!</p>";
   document.getElementById("work__button").innerHTML = txt;
 
   txt = "<p class='contact__text' id='contact__text'>Attualmente <strong>non sono disponibile per ottenere un lavoro</strong> quindi non c'è nessun bisogno di contattarmi qui. <br>Se necessario, puoi comunque trovarmi su <a href=\"https://twitter.com/medianisamuel\" target=\"_blank\">Twitter</a> <i class='bx bx-smile' ></i>.</p>";

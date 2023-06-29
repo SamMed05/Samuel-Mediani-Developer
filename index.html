@@ -182,7 +182,7 @@
                     <script>document.getElementById('ageNumber').innerHTML = (age("4 April 2005"))</script>
                     
                     <p class="about__text about__text2" id="about__text2">
-                        years old italian student who loves programming and learning new things (think of this website as a demonstration of my passions <i class='bx bx-smile' ></i>). <br>
+                        years old italian student who loves programming and learning new things (think about this website as a demonstration of my passions <i class='bx bx-smile' ></i>). <br>
                         I'm attending the upper secondary school in an Information Technology institute, but everything you see here is done by learning the skills I needed as a self-taught.<br>
                         Indeed I like experimenting with pretty much every aspect of developing in general and trying out new things to learn from them to improve myself. <br>
                         For now I have done work in software, web and videogame development, but I also occasionally experiment with fractals (2D and 3D) and do graphic design.<br>
@@ -406,7 +406,7 @@
 
                 <div class="work__img">
                     <a href="https://c-cpp-notes.vercel.app/" target="_blank" style="color: #fff;">
-                        <img src="./img/work11.jpg" alt="C/C++ Notes" id="myImg11">
+                        <img src="./img/work11.jpg" alt="C/C++ NOTES" id="myImg11">
                         <div class="contentBx">
                             <div class="contentTx">
                                 <h2 id="bx-title11">C/C++ Notes</h2>
@@ -415,6 +415,29 @@
                             </div>
                         </div>
                     </a>
+                </div>
+
+                <div class="work__img">
+                    <a href="https://github.com/SamMed05/tab-counter-stats" target="_blank" style="color: #fff;">
+                        <img src="./img/work12.jpg" alt="CHROME EXTENSIONS" id="myImg12">
+                        <div class="contentBx">
+                            <div class="contentTx">
+                                <h2 id="bx-title12">Chrome Extensions</h2>
+                                <p id="bx-text12">I've experimented with the Chrome API building a few little extensions.</p>
+                                <a><button class="work__button" id="work__button">OPEN!</button></a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="work__img">
+                    <img src="./img/work13.gif" alt="WINDOWS 11 WALLPAPER" id="myImg13">
+                    <div class="contentBx">
+                        <div class="contentTx">
+                            <h2 id="bx-title13">Windows 11 Wallpaper</h2>
+                            <p id="bx-text13">Inspired by a tutorial from Haritha Siriwardana, I've created a wallpaper in Blender using cloth simulation in the Windows 11 design style.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <br>
@@ -460,6 +483,8 @@
             var img9 = document.getElementById("myImg9");
             var img10 = document.getElementById("myImg10");
             var img11 = document.getElementById("myImg11");
+            var img12 = document.getElementById("myImg12");
+            var img13 = document.getElementById("myImg13");
 
             var modalImg = document.getElementById("img01");
             var captionText = document.getElementById("caption");
@@ -514,6 +539,16 @@
               captionText.innerHTML = this.alt;
             }
             img11.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+            img12.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+            img13.onclick = function(){
               modal.style.display = "block";
               modalImg.src = this.src;
               captionText.innerHTML = this.alt;
