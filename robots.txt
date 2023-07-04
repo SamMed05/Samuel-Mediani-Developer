@@ -4,3 +4,6 @@ Disallow: /img/homeimg.png
 Disallow: /img/work7.jpg
 Disallow: /img/eng.png
 Disallow: /img/ita.png
+
+User-agent: *
+Disallow: /misc/Samuel_Mediani_Resume.pdf
