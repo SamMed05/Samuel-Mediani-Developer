@@ -24,6 +24,8 @@ function eng() {
   document.getElementById("about__text1").innerHTML = txt;
   txt = "<p class='about__text2'> years old italian student who loves programming and learning new things (think about this website as a demonstration of my passions <i class='bx bx-smile' ></i>). <br> I'm attending the upper secondary school in an Information Technology institute, but everything you see here is done by learning the skills I needed as a self-taught. <br> Indeed I like to experiment with pretty much every aspect of developing in general and trying out new things to learn from them to improve myself. <br> For now I have done work in software, web and videogame develompment, but I also occasionally experiment with fractals (2D and 3D) and do graphic design. <br>  Currently I'm not specialized in any of these fields in particular, I'm still finding the best one for me. <br>  In any case this website serves the purpose of demonstrating my latest projects, as well as to keep track of my journey through them.</p>";
   document.getElementById("about__text2").innerHTML = txt;
+  // txt = "<p class='about__text' id='ageNumber' style='display:inline' title='This number is updated automatically :)'></p>"
+  // document.getElementById("ageNumber").innerHTML = txt;
 
   txt = "<p class='back-text' id='back-text'>Hi!</p>";
   document.getElementById("back-text").innerHTML = txt;
@@ -34,7 +36,7 @@ function eng() {
   txt = "<p class='skills__subtitle' id='skills__subtitle'>Professional skills</p>";
   document.getElementById("skills__subtitle").innerHTML = txt;
 
-  txt = "<p class='skills__text' id='skills__text'>As for programming languages, I've used HTML <i class='bx bxl-html5 ' ></i>, CSS <i class='bx bxl-css3 ' ></i>, JavaScript <i class='bx bxl-javascript ' ></i> (both vanilla and with some libraries), Python, C# (in Unity), C++ and Java, but I'm constantly learning new things about them.<br>The programs that I've used (or sperimented with) are Unity, Blender, Visual Studio, Visual Studio Code, Android Studio, Figma and others (see the image ➡️).</p>";
+  txt = "<p class='skills__text' id='skills__text'>As for programming languages, I've used HTML <i class='bx bxl-html5 ' ></i>, CSS <i class='bx bxl-css3 ' ></i>, JavaScript <i class='bx bxl-javascript ' ></i> (both vanilla and with some libraries), Python, C# (in Unity), C++ and Java, but I'm constantly learning new things about them.<br>The programs that I've used (or sperimented with) are Unity, Blender, Visual Studio, Android Studio, Figma, GIMP and others (see the image ➡️).</p>";
   document.getElementById("skills__text").innerHTML = txt;
 
   txt = "<p class='work__text' id='work__text'>These are some of my best projects:</p>";
@@ -132,10 +134,10 @@ function eng() {
   document.getElementById("work__button").innerHTML = txt;
 
 
-  txt = "<p class='contact__text' id='contact__text'>Currently <strong>I'm not avaiable to get a job</strong> so there is no need to contact me here. <br>You can still reach me on <a href=\"https://twitter.com/medianisamuel\" target=\"_blank\">Twitter</a> if you need to <i class='bx bx-smile' ></i>.</p>";
+  txt = "<p class='contact__text' id='contact__text'>Currently <strong>I'm not available to get a job</strong> so there is no need to contact me here. <br>You can still reach me on <a href=\"https://twitter.com/medianisamuel\" target=\"_blank\">Twitter/X</a> if you need to <i class='bx bx-smile' ></i>.</p>";
   document.getElementById("contact__text").innerHTML = txt;
 
-  txt = "<p id='footer__text'>Copyright &#169; Samuel Mediani 2019.<br>Customized from <i><a href='https://youtu.be/AKNvTxWOdKw'>this</a></i> template.</p>";
+  txt = "<p id='footer__text'>Copyright &#169; Samuel Mediani 2019.<br>Customized from this <i><a href='https://youtu.be/AKNvTxWOdKw'>template</a></i>.</p>";
   document.getElementById("footer__text").innerHTML = txt;
 }
 
@@ -160,8 +162,10 @@ function ita() {
 
   txt = "<p class='about__text1'>Benvenuto fortunato visitatore! Sono uno studente italiano di </p>";
   document.getElementById("about__text1").innerHTML = txt;
-  txt = "<p class='about__text2'> anni che ama programmare e imparare cose nuove (pensa a questo sito come una dimostrazione delle mie passioni <i class='bx bx-smile' ></i>). <br> Frequento le superiori all'Istituto Tecnico Informatico, ma ogni cosa che vedi qui è stata fatta imparando le abilità che mi servivano da autodidatta. <br> Infatti mi piace sperimentare con la maggior parte degli aspetti dello sviluppo informatico in generale e prolete nuove cose da imparare da quest'ultimi per migliorare me stesso. <br> Per ora ho lavorato per realizzare applicazioni software, siti web e videogiochi, ma ho anche occasionalmente sperimentato con i frattali (2D e 3D) e qualche volta disegno grafica vettoriale. <br> Attualmente non sono specializzato in nessuno di questi campi in particolare, sto ancora cercando il migliore per me. <br> In ogni caso questo sito ha lo scopo di mostrare i miei ultimi progetti e tenere traccia della avventura che compio grazie a essi.</p>";
+  txt = "<p class='about__text2'> anni che ama programmare e imparare cose nuove (pensa a questo sito come una dimostrazione delle mie passioni <i class='bx bx-smile' ></i>). <br> Frequento le superiori all'Istituto Tecnico Informatico, ma ogni cosa che vedi qui è stata fatta imparando le abilità che mi servivano da autodidatta. <br> Infatti mi piace sperimentare con la maggior parte degli aspetti dello sviluppo informatico in generale e provare nuove cose per imparare da esse per migliorare me stesso. <br> Per ora ho lavorato per realizzare applicazioni software, siti web e videogiochi, ma ho anche occasionalmente sperimentato con i frattali (2D e 3D) e qualche volta disegno grafica vettoriale. <br> Attualmente non sono specializzato in nessuno di questi campi in particolare, sto ancora cercando il migliore per me. <br> In ogni caso questo sito ha lo scopo di mostrare i miei ultimi progetti e tenere traccia della avventura che compio grazie a essi.</p>";
   document.getElementById("about__text2").innerHTML = txt;
+  // txt = "<p class='about__text' id='ageNumber' style='display:inline' title='Questo numero si aggiorna in automatico :)'></p>"
+  // document.getElementById("ageNumber").innerHTML = txt;
 
   txt = "<p class='back-text' id='back-text'>Ciao!</p>";
   document.getElementById("back-text").innerHTML = txt;
@@ -172,7 +176,7 @@ function ita() {
   txt = "<p class='skills__subtitle' id='skills__subtitle'>Abilità professionali</p>";
   document.getElementById("skills__subtitle").innerHTML = txt;
 
-  txt = "<p class='skills__text' id='skills__text'>Per quanto riguarda i linguaggi di programmazione, ho usato HTML <i class='bx bxl-html5 ' ></i>, CSS <i class='bx bxl-css3 ' ></i>, JavaScript <i class='bx bxl-javascript ' ></i> (sia vanilla che con alcune librerie), Python, C# (in Unity), C++ e Java, ma continuo a imparare cose nuove su di essi.<br>I programmi che ho usato (o con cui ho sperimentato) sono Unity, Blender, Visual Studio, Visual Studio Code, Android Studio, Figma e altri (vedi l'immagine ➡️).</p>";
+  txt = "<p class='skills__text' id='skills__text'>Per quanto riguarda i linguaggi di programmazione, ho usato HTML <i class='bx bxl-html5 ' ></i>, CSS <i class='bx bxl-css3 ' ></i>, JavaScript <i class='bx bxl-javascript ' ></i> (sia vanilla che con alcune librerie), Python, C# (in Unity), C++ e Java, ma continuo a imparare cose nuove su di essi.<br>I programmi che ho usato (o con cui ho sperimentato) sono Unity, Blender, Visual Studio, Android Studio, Figma, GIMP e altri (vedi l'immagine ➡️).</p>";
   document.getElementById("skills__text").innerHTML = txt;
 
   txt = "<p class='work__text' id='work__text'>Questi sono alcuni dei miei migliori progetti:</p>";
@@ -269,9 +273,9 @@ function ita() {
   txt = "<p id='work__button'>OPEN!</p>";
   document.getElementById("work__button").innerHTML = txt;
 
-  txt = "<p class='contact__text' id='contact__text'>Attualmente <strong>non sono disponibile per ottenere un lavoro</strong> quindi non c'è nessun bisogno di contattarmi qui. <br>Se necessario, puoi comunque trovarmi su <a href=\"https://twitter.com/medianisamuel\" target=\"_blank\">Twitter</a> <i class='bx bx-smile' ></i>.</p>";
+  txt = "<p class='contact__text' id='contact__text'>Attualmente <strong>non sono disponibile per ottenere un lavoro</strong> quindi non c'è nessun bisogno di contattarmi qui. <br>Se necessario, puoi comunque trovarmi su <a href=\"https://twitter.com/medianisamuel\" target=\"_blank\">Twitter/X</a> <i class='bx bx-smile' ></i>.</p>";
   document.getElementById("contact__text").innerHTML = txt;
 
-  txt = "<p id='footer__text'>Copyright &#169; Samuel Mediani 2019.<br>Personalizzato da <i><a href='https://youtu.be/AKNvTxWOdKw'>questo</a></i> template.</p>";
+  txt = "<p id='footer__text'>Copyright &#169; Samuel Mediani 2019.<br>Personalizzato da questo <i><a href='https://youtu.be/AKNvTxWOdKw'>template</a></i>.</p>";
   document.getElementById("footer__text").innerHTML = txt;
 }
