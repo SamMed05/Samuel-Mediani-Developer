@@ -49,7 +49,7 @@ function eng() {
 
   txt = "<p id='bx-title2'>First Landscape</p>";
   document.getElementById("bx-title2").innerHTML = txt;
-  txt = "<p id='bx-text2'>This is one of my first Blender projects I've made (2019).</p>";
+  txt = "<p id='bx-text2'>This is one of my first Blender projects I've made (2019). It's inspired by a similar work by Matt Stark.</p>";
   document.getElementById("bx-text2").innerHTML = txt;
   txt = "<p id='work__button'>OPEN!</p>";
   document.getElementById("work__button").innerHTML = txt;
@@ -77,7 +77,7 @@ function eng() {
 
   txt = "<p id='bx-title6'>My First Game</p>";
   document.getElementById("bx-title6").innerHTML = txt;
-  txt = "<p id='bx-text6'>Now I'm working on a game based on squares, but it's work-in-progress yet.</p>";
+  txt = "<p id='bx-text6'>I'm working on a music based game based on square and rectangular shapes, but it's very much work-in-progress still.</p>";
   document.getElementById("bx-text6").innerHTML = txt;
   txt = "<p id='work__button'>OPEN!</p>";
   document.getElementById("work__button").innerHTML = txt;
@@ -91,7 +91,7 @@ function eng() {
 
   txt = "<p id='bx-title8'>Mandelbrot Set</p>";
   document.getElementById("bx-title8").innerHTML = txt;
-  txt = "<p id='bx-text8'>This is one of my favourite projects, by a tutorial of 'The Art Of Code'. Look at these beautiful colors!</p>";
+  txt = "<p id='bx-text8'>This is one of my coolest generative art projects, made following a tutorial of 'The Art Of Code'. Look at those beautiful colors!</p>";
   document.getElementById("bx-text8").innerHTML = txt;
   txt = "<p id='work__button'>OPEN!</p>";
   document.getElementById("work__button").innerHTML = txt;
@@ -187,7 +187,7 @@ function ita() {
 
   txt = "<p id='bx-title2'>Primo Paesaggio</p>";
   document.getElementById("bx-title2").innerHTML = txt;
-  txt = "<p id='bx-text2'>Questo è uno dei miei primi progetti fatti con Blender (2019).</p>";
+  txt = "<p id='bx-text2'>Questo è uno dei miei primi progetti fatti con Blender (2019). È ispirato da un'opera simile di Matt Stark.</p>";
   document.getElementById("bx-text2").innerHTML = txt;
   txt = "<p id='work__button'>APRI!</p>";
   document.getElementById("work__button").innerHTML = txt;
@@ -215,7 +215,7 @@ function ita() {
 
   txt = "<p id='bx-title6'>Primo Gioco</p>";
   document.getElementById("bx-title6").innerHTML = txt;
-  txt = "<p id='bx-text6'>Ora sto lavorando su un gioco basato sui quadrati, ma è ancora work-in-progress.</p>";
+  txt = "<p id='bx-text6'>Ora sto lavorando su un gioco musicale basato su quadrati e rettangoli, ma è ancora work-in-progress.</p>";
   document.getElementById("bx-text6").innerHTML = txt;
   txt = "<p id='work__button'>APRI!</p>";
   document.getElementById("work__button").innerHTML = txt;
@@ -229,7 +229,7 @@ function ita() {
 
   txt = "<p id='bx-title8'>Mandelbrot Set</p>";
   document.getElementById("bx-title8").innerHTML = txt;
-  txt = "<p id='bx-text8'>Questo è uno dei miei progetti preferiti, da un tutorial di 'The Art Of Code'. Guarda che bei colori!</p>";
+  txt = "<p id='bx-text8'>Questo è uno dei miei progetti di arte generativa preferiti, fatto a partire da un tutorial di 'The Art Of Code'. Guarda che bei colori!</p>";
   document.getElementById("bx-text8").innerHTML = txt;
   txt = "<p id='work__button'>APRI!</p>";
   document.getElementById("work__button").innerHTML = txt;

@@ -150,28 +150,17 @@
                     </div>
                 </div>
             
-                <script type="text/javascript">
-                    // let date = new Date().getFullYear();
-                    // let age = 0;
-                    // let day = new Date().getDate;
-                    // let month = new Date().getMonth;
-
-                    // if ((day>=4) && (month>=3)) { //months go from 0 to 11, not from 1 to 12!
-                    //     age = date - 2005;
-                    //     console.log(age);
-                    //     document.getElementById("age").innerHTML = age;
-                    // }
-                    // function dateDiff(dateold, datenew) {
-                    //   var ynew = datenew.getFullYear();
-                    //   var mnew = datenew.getMonth();
-                    //   var dnew = datenew.getDate();
-                    
-                    // https://www.scriptol.com/javascript/dates-difference.php
-                    function age(birthday)
-                    {
-                      birthday = new Date(birthday);
-                      return new Number((new Date().getTime() - birthday.getTime()) / 31536000000).toFixed(0);
+                <script type="text/javascript">                    
+                    function age(birthday) {
+                    birthday = new Date(birthday);
+                    let today = new Date();
+                    let age = today.getFullYear() - birthday.getFullYear();
+                    let m = today.getMonth() - birthday.getMonth();
+                    if (m < 0 || (m === 0 && today.getDate() < birthday.getDate())) {
+                        age--;
                     }
+                    return age;
+                }
                 </script>
                 
                 <div>
@@ -304,7 +293,7 @@
                     <div class="contentBx">
                         <div class="contentTx">
                             <h2 id="bx-title2">First Landscape</h2>
-                            <p id="bx-text2">This is one of my first Blender projects I've made (2019).</p>
+                            <p id="bx-text2">This is one of my first Blender projects I've made (2019). It's inspired by a similar work by Matt Stark.</p>
                             <!-- <a><button class="work__button" id="work__button">OPEN!</button></a> -->
                         </div>
                     </div>
@@ -348,7 +337,7 @@
                     <div class="contentBx">
                         <div class="contentTx">
                             <h2 id="bx-title6">My first game</h2>
-                            <p id="bx-text6">Now I'm working on a game based on squares, but it's work-in-progress yet.</p>
+                            <p id="bx-text6">I'm working on a music based game based on square and rectangular shapes, but it's very much work-in-progress still.</p>
                             <!-- <a><button class="work__button" id="work__button">OPEN!</button></a> -->
                         </div>
                     </div>
@@ -372,7 +361,7 @@
                     <div class="contentBx">
                         <div class="contentTx">
                             <h2 id="bx-title8">Mandelbrot Set</h2>
-                            <p id="bx-text8">This is one of my favourite projects, by a tutorial of 'The Art Of Code'. Look at these beautiful colors!</p>
+                            <p id="bx-text8">This is one of my coolest generative art projects, made following a tutorial of 'The Art Of Code'. Look at those beautiful colors!</p>
                             <!-- <a><button class="work__button" id="work__button">OPEN!</button></a> -->
                         </div>
                     </div>
