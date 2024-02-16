@@ -268,6 +268,8 @@ ul {
 
 a {
     text-decoration: none;
+    color: var(--first-color);
+
 }
 
 img {
@@ -281,7 +283,7 @@ img {
 #topBtn {
     position: fixed; /* Fixed/sticky position */
     bottom: 4vh; /* Place the button at the bottom of the page */
-    right: 4vw; /* Place the button 30px from the right */
+    right: 3vw; /* Place the button 30px from the right */
     z-index: 100; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
@@ -292,7 +294,7 @@ img {
     font-size: 4rem; /* Increase font size */
     transition: ease .5s;
     /* display: none; */
-    text-shadow: 0px 0px 5px #0000001f;
+    text-shadow: 0px 0px 13px #4070f486;
 }
   
 #topBtn:hover {
@@ -889,6 +891,7 @@ img {
     background-position: center;
     transition: 0.5s;
     background-color: #000;
+    will-change: transform;
 }
 
 .work__container .work__img {
