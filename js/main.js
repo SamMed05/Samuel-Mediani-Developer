@@ -211,3 +211,28 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 */
+
+/* ========= COOKIE CONSENT (https://developers.google.com/tag-platform/security/guides/consent?consentmode=basic) ========= */
+/*const grantButton = document.getElementById("grantButton");
+
+grantButton.addEventListener("click", function() {
+  localStorage.setItem("consentGranted", "true");
+  function gtag() { dataLayer.push(arguments); }
+
+  gtag('consent', 'update', {
+    ad_user_data: 'granted',
+    ad_personalization: 'granted',
+    ad_storage: 'granted',
+    analytics_storage: 'granted'
+  });
+
+  document.getElementById("cookie-box").style = "display: none;";
+});
+
+// Load gtag.js script.
+var gtagScript = document.createElement('script');
+gtagScript.async = true;
+gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-HXR14BFG81';
+
+var firstScript = document.getElementsByTagName('script')[0];
+firstScript.parentNode.insertBefore(gtagScript,firstScript);*/

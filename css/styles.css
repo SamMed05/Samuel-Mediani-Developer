@@ -1328,3 +1328,29 @@ img {
         display: none;
     }
 }
+
+
+/*.cookie-consent-container {
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 1000;
+    background-color: rgba(245, 245, 245, 0.596);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.1), 0 7px 20px 0 rgba(0,0,0,0.1);
+}
+
+.cookie-consent-btn {
+    border: 2px solid var(--first-color);
+    background-color: #fff;
+    padding: 5px;
+    position: relative;
+    margin-top: 50px;
+    border-radius: 10px;
+    line-height: 40px;
+    font-size: .9rem;
+    text-wrap: nowrap;
+}*/
