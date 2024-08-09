@@ -36,7 +36,7 @@ function eng() {
   txt = "<p class='skills__subtitle' id='skills__subtitle'>Professional skills</p>";
   document.getElementById("skills__subtitle").innerHTML = txt;
 
-  txt = "<p class='skills__text' id='skills__text'>As for programming languages, I've used HTML <i class='bx bxl-html5 ' ></i>, CSS <i class='bx bxl-css3 ' ></i>, JavaScript <i class='bx bxl-javascript ' ></i> (both vanilla and with some libraries), Python, C# (in Unity), C++ and Java, but I'm constantly learning new things about them.<br>The programs that I've used (or sperimented with) are Unity, Blender, Visual Studio, Android Studio, Figma, GIMP and others (see the image ➡️).</p>";
+  txt = "<p class='skills__text' id='skills__text'>As for programming languages, I've used HTML <i class='bx bxl-html5 ' ></i>, CSS <i class='bx bxl-css3 ' ></i>, JavaScript <i class='bx bxl-javascript ' ></i> (both vanilla and with some libraries), Python, C# (in Unity), C++ and Java, but I'm constantly learning new things about them.<br>The programs that I've used (or experimented with) are Unity, Blender, Visual Studio, Android Studio, Figma, GIMP and others (see the image ➡️).</p>";
   document.getElementById("skills__text").innerHTML = txt;
 
   txt = "<p class='work__text' id='work__text'>These are some of my best projects:</p>";
