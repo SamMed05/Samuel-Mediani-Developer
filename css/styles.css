@@ -640,6 +640,22 @@ img {
     color: #FF0000;
 }
 
+/* Bluesky social icon using Font Awesome */
+.home__social-icon.bluesky {
+    font-size: 1.7rem; /* Slightly smaller size */
+    position: relative;
+    top: 1px; /* Put it a bit lower */
+    margin-left: 2px;
+}
+.footer__icon.bluesky {
+    font-size: 1.3rem; /* Slightly smaller size */
+    position: relative;
+    top: -2px; /* Put it a bit higher */
+}
+.home__social-icon.bluesky:hover {
+    color: #1084ff;
+}
+
 .home__img {
     position: absolute;
     right: 10px;
