@@ -402,7 +402,7 @@ img {
     position: relative;
     font-size: var(--h2-font-size);
     color: var(--first-color);
-    margin-top: 10vh;
+    margin-top: 5vh;
     margin-bottom: var(--mb-4);
     text-align: center;
     z-index: var(--z-back);
@@ -857,10 +857,10 @@ img {
     width: 80%
 }
 .skills__css {
-    width: 65%
+    width: 50%
 }
 .skills__cpp {
-    width: 45%
+    width: 60%
 }
 .skills__py {
     width: 60%
@@ -1155,8 +1155,8 @@ img {
         margin: 0;
     }
     .section {
-        padding-top: 4rem;
-        padding-bottom: 3rem;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
     }
     .section-title {
         margin-bottom: var(--mb-6);

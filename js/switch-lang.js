@@ -101,7 +101,7 @@ function eng() {
   let bxTitle7 = document.getElementById("bx-title7");
   if (bxTitle7) bxTitle7.innerHTML = txt;
 
-  txt = "<p id='bx-text7'>I can't forget to mention this website, my last project and my favourite one for now <i class='bx bx-smile' ></i>. <br>Click to view the source code! <i class='bx bx-code-block'></i></p>";
+  txt = "<p id='bx-text7'>I can't forget to mention this website, one of my favourite one for now <i class='bx bx-smile' ></i>. <br>Click to view the source code! <i class='bx bx-code-block'></i></p>";
   let bxText7 = document.getElementById("bx-text7");
   if (bxText7) bxText7.innerHTML = txt;
 
@@ -286,7 +286,7 @@ function ita() {
   let bxTitle7 = document.getElementById("bx-title7");
   if (bxTitle7) bxTitle7.innerHTML = txt;
 
-  txt = "<p id='bx-text7'>Non posso dimenticare di menzionare questo sito web, il mio ultimo progetto e il mio preferito per ora <i class='bx bx-smile' ></i>. <br>Fai clic per visualizzare il codice sorgente! <i class='bx bx-code-block'></i></p>";
+  txt = "<p id='bx-text7'>Non posso dimenticare di menzionare questo sito, uno dei miei preferiti <i class='bx bx-smile' ></i>. <br>Fai clic per visualizzare il codice sorgente! <i class='bx bx-code-block'></i></p>";
   let bxText7 = document.getElementById("bx-text7");
   if (bxText7) bxText7.innerHTML = txt;
 
